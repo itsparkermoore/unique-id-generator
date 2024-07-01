@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique ID Generator</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif;  /* Set font to Helvetica */
+        }
+        button {
+            font-size: 1.5em;  /* Adjusted font size */
+            padding: 15px 30px;  /* Adjusted button size */
+            margin: 10px;  /* Add some margin for better spacing */
+        }
+        #uniqueId {
+            font-size: 1.5em;  /* Adjusted font size for unique ID text */
+            margin: 10px 0;  /* Add some margin for spacing */
+        }
+        .fade-out {
+            transition: opacity 2s ease;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button id="generateButton">Generate Unique ID</button>
+        <p id="uniqueId"></p>
+        <button id="copyButton" style="display: none;">Copy to Clipboard</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
