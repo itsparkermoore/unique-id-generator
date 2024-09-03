@@ -1,6 +1,6 @@
 // Function to generate a random 32-character alphanumeric ID with lowercase letters and numbers
 function generateUniqueId() {
-    const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+    const characters = 'abcdefghijklmnopqrstuvwyz0123456789';
     let uniqueId = '';
     for (let i = 0; i < 32; i++) {
         uniqueId += characters.charAt(Math.floor(Math.random() * characters.length));
